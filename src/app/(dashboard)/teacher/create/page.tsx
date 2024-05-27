@@ -53,7 +53,7 @@ const CreatePage = () => {
 					What would you like to name your course Don&apos;t worry, you can change this later.
 				</p>
 			</div>
-			<Form { ...form }>
+			{/*<Form { ...form }>
 				<form onSubmit={ onSubmit } className="space-y-8 mt-8">
 					<FormField
 						control={ form.control }
@@ -82,7 +82,7 @@ const CreatePage = () => {
 						<Button type="submit" disabled={ !isValid || isSubmitting }>Continue</Button>
 					</div>
 				</form>
-			</Form>
+			</Form>*/}
 		</div>
 	);
 };
